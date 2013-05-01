@@ -5,11 +5,17 @@
 .github_review {
   position: fixed;
   left: 1000px;
-  top: 60px;
+  top: 3px;
+  height: 100%;
 }
 
 .github_review form {
   margin-bottom: 15px;
+}
+
+.github_review .files {
+  height: 96%;
+  overflow-y: scroll;
 }
 
 #wrapper .pagehead.repohead span.repo-label {
