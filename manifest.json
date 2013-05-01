@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "GitHub Review",
+  "description": "This extension makes GitHub code reveiw more pleasant.",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/files"],
+      "css": ["github_review.css"],
+      "js": ["jquery.js", "github_review.js"]
+    }
+  ]
+}

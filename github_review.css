@@ -1,0 +1,24 @@
+.container {
+  margin: 0 35px !important;
+}
+
+.github_review {
+  position: fixed;
+  left: 1000px;
+  top: 60px;
+}
+
+.github_review form {
+  margin-bottom: 15px;
+}
+
+#wrapper .pagehead.repohead span.repo-label {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  top: 30px;
+  left: -46px;
+}
