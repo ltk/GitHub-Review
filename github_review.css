@@ -15,7 +15,8 @@
 
 .github_review .files {
   height: 96%;
-  overflow-y: scroll;
+  overflow: scroll;
+  width: 100%;
 }
 
 #wrapper .pagehead.repohead span.repo-label {

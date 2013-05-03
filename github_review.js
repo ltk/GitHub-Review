@@ -13,4 +13,11 @@ $(function(){
       files.appendTo($file_container)
     }
   });
+
+  $(window).resize(function(){
+    var width = $(self).width();
+    $(".github_review").width(width-1000);
+  });
+
+  $(window).trigger('resize');
 });
